@@ -1,0 +1,90 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#000;
+}
+.main{
+    background-color: #cccc;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    box-shadow:2px 2px 10px 10px #fff;
+    padding: 100px;
+}
+h1
+{
+    font-weight: bold;
+    margin-top: auto;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.bget4M_o7J-E_S1LP6f-YAHaEo?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #000; */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: #cccc;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 10px #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff; /* Border under the heading */
+    padding-bottom: 10px; /* Spacing between text and border */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 36px;
+    margin-bottom: 30px;
+    background-color: #007bff; /* Background color for the timer */
+    padding: 10px 20px; /* Padding inside the timer */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+button {
+    background-color: #007bff;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em; 
+    cursor: pointer;
+    font-size: 30px;
+    transition: background-color 0.3s;
+}
+
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
